@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Involt</title>
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+	<script src="core/jquery/jquery-2.1.0.min.js"></script>
+	<script src="core/jquery/jquery.nouislider.min.js"></script>
+	<script src="core/jquery/jquery.knob.js"></script>
+	<script src="core/jquery/insQ.min.js"></script>
+	<script src="settings.js"></script>
+	<script src="core/bridge.js"></script>
+	<script src="core/framework.js"></script>
+	<script src="core/cordova.js"></script>
+	<script src="core/firebase.js"></script>
+	<script src="core/qrcode.js"></script>
+
+	<script src="j1.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/framework.css">
+
+
+</head>
+
+<body onload="Init()">
+	
+	
+	
+
+	
+
+	
+	<div id="turbidez">
+		<div id="nome1">Turbidez</div>
+		<div id="turb">Valor: 0</div>
+		<div id="toggle1" class="ard toggle P7" >Ligar sensor</div>
+	</div>
+	
+	
+
+	<div id="temperatura">
+		<div id="nome2">Temperatura</div>
+		<div id="temp">Valor: 0</div>
+	</div>
+
+	<div id="qrcodediv">
+		<input type="text" id="qrtext" value="a">
+
+		<button id="btqr" onclick="makeCode()">Gerar</button>
+
+		<div id="qrcode"></div>
+
+		
+	</div>
+	
+</body>
+
+</html>
