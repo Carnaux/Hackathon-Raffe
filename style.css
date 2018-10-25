@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(124,157,69);
+}
+#content{
+    margin-top: 100px;
+}
+.imgperfil{
+    width: 250px;
+    height: 250px;
+}
+.begining{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.end{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.titleteam{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.contentteam{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.titleRaffe{
+    margin-top: 30px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;  
+}
+.contentRaffe2{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.titleneeds{
+    margin-top: 30px; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;   
+}
+.contentneeds{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.needs{
+    margin-top: 30px; 
+}
+.titletake1{
+    margin-top: 30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px; 
+}
+.color1{
+    
+    background-color: rgb(93,116,54);
+}
+.color2{
+    background-color: rgb(162,180,133);
+}
+#imgraffe{
+    width: 300px;
+    height: 260px;
+}
+#imgDHT{
+    width: 300px;
+    height: 260px;
+    margin-bottom: 30px;
+}
+.imgApp1{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.imgApp2{
+    width: 300px;
+    height: 260px;
+}
+.content2take{
+    margin-top: 30px;
+}
+.marginTop{
+    margin-top: 30px;
+}
+.imgsummary{
+    width: 320px;
+    height: 260px;
+}
+
+@media (min-width: 0px) {
+    #logo{
+        width: 100px;
+        height: 100px;
+    }   
+    .videoTake1{
+        width: 250px;
+        height: 250px;
+    }
+    .imgApps{
+        width: 300px;
+        height: 220px;
+    }
+    .imgAppsM{
+        width: 170px;
+        height: 250px;
+    }
+}
+/*( 400px and up) */
+@media (min-width: 400px) {
+    
+}
+/* SMALL ( 576px and 5p) */
+@media (min-width: 576px) {
+  
+}
+
+/* MEDIUM (tablets, 768px and up) */
+@media (min-width: 768px) {
+    #logo{
+        width: 100px;
+        height: 100px;
+    }   
+    .videoTake1{
+        width: 350px;
+        height: 350px;
+    }
+    .imgApps{
+        width: 500px;
+        height: 260px;
+    }
+    .imgsummary{
+        width: 500px;
+        height: 260px;
+    }
+    
+}
+
+/* LA (desktops, 992px and up) */
+@media (min-width: 992px) {
+   
+   
+}
+
+/* EX (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}

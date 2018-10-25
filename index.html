@@ -1,16 +1,266 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <title>Hackathon-Raffe</title>
+  <title>Hackathon Raffe</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
- 
-  <script src="j1.js"></script>
+  
 
 </head>
 <body>
-  <h1>hello</h1>
+
+<div id="header" class="container">
+    <div class="row" >
+        <div class="col text-center">
+            <img id="logo" alt="logo.png" src="src/logo.png"> 
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-center">
+            <h4>Here i will explain how the system works, the team that created it, and what we used.</h4>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-center">
+            <h3>Let's begin!</h3> 
+        </div>
+      </div>
+</div>
+
+<div id="content" class="container" >
+    <div class="row titleteam color1">
+        <div class="col text-center">
+            <h3>Our team</h3>
+        </div>
+    </div>
+    <div class="row text-center contentteam  color1">
+        <div class="col team">
+            <h5>Francisco Bianor</h5>
+            <img>
+            <h5>Science and Technology and Mechatronic Engineering - UFRN</h5>
+        </div>
+        <div class="col team ">
+            <h5>Daniel Fernandes</h5>
+            <img class="imgperfil" src="src/Daniel.png">
+            <h5>Science and Technology - UFRN</h5>
+        </div>
+        <div class="col team ">
+            <h5>Alek Tobias</h5>
+            <img class="imgperfil" src="src/alek.jpg">
+            <h5>Science and Technology and Computing Engineering - UFRN</h5>
+        </div>
+    </div>
+
+    <div class="row text-center titleRaffe color2">
+        <div class="col raffe">
+            <h4>The first thing that need to be explained is what is Raffe</h4>
+        </div>
+    </div>
+    <div class="row text-center contentRaffe color2">
+        <div class="col raffe">
+            <h5>Raffe is a craft beer brewery from Natal, RN, Brazil, and they, with Instituto Metropole Digital, organized a hackathon to approximate the industry to the labs.</h5>
+        </div>
+    </div>
+    <div class="row text-center contentRaffe2 color2">
+        <div class="col raffe">
+            <img id="imgraffe" src="src/foto1.jpg">
+        </div>
+    </div>
+
+
+    <div class="row text-center titleneeds color2">
+        <div class="col">
+            <h4>What are they needs:</h4>
+        </div>
+    </div>
+    <div class="row  text-center contentneeds color2">
+        <div class="col needs">
+            <h5>Monitoring the production process</h5>
+        </div>
+        <div class="col needs">
+            <h5>Monitoring the final product</h5>
+        </div>
+        <div class="col needs">
+            <h5>Smart branding</h5>
+        </div>
+    </div>
+
+    <div class="row text-center titletake1 color2">
+        <div class="col take1">
+            <h4>Monitoring the production process</h4>
+        </div>
+    </div>
+    <div class="row text-center contenttake color2">
+        <div class="col take1">
+            <h5>To understand the needs in the production process we spoke with the brewmaster, he sugested sensors to analyze turbidity and temperature of the beer while fermenting.
+            Bianor and me (Daniel) developed a box with those two sensors, while Bianor put together the prototypes, i did the 3d models.</h5>
+        </div>
+    </div>
+    <div class="row text-center contenttake2 color2">
+        <div class="col take1">
+            <img src="src/boxGif.gif">
+            <!--video autoplay loop class="videoTake1" type="video/mp4" src="src/box.mp4"></video-->
+        </div>
+    </div>
+    <div class="row text-center contenttake3 color2">
+        <div class="col take1">
+            <h4>The turbidity sensor:</h4>
+        </div>
+    </div>
+    <div class="row text-center contenttake4 color2">
+        <div class="col take1">
+            <h5>We used just a laser and a LDR, if the LDR reading is a high number it means that the liquid is clear.</h5>
+        </div>
+    </div>
+    <div class="row text-center contenttake4 color2">
+        <div class="col take1">
+            <img src="src/gifSensor.gif">
+        </div>
+    </div>
+    <div class="row text-center contenttake5 color2">
+    <div class="col take1">
+        <h4>The temperature sensor:</h4>
+    </div>
+    </div>
+    <div class="row text-center contenttake6 color2">
+        <div class="col take1">
+            <h5>A simple DHT 11.</h5>
+        </div>
+    </div>
+    <div class="row text-center contenttake7 color2 end">
+        <div class="col take1">
+            <img id="imgDHT" src="src/dht11.jpg">
+        </div>
+    </div>
+
+    <div class="row text-center content2take color2 begining">
+        <div class="col take1">
+            <h4>Monitoring the final product</h4>
+        </div>
+    </div>
+    <div class="row text-center content2take2 color2">
+        <div class="col take1">
+            <h5>Raffe is focusing on selling kegs with pressurised beer, and they wanted to know how the bars are storing and using Raffes's kegs, because storing their beer in warm places affect it's quality, or plugin the tap multiple times and serving little amount per night.</h5>
+        </div>
+    </div>
+    <div class="row text-center content2take3 color2">
+        <div class="col take1">
+            <h5>So we developed a device that knows the temperature and how many times the bar plug and unplug the tap.</h5>
+        </div>
+    </div>
+    <div class="row text-center content2take4 color2">
+        <div class="col take1">
+            <img src="src/kegGif.gif">
+        </div>
+    </div>
+    <div class="row text-center content2take5 color2 end">
+        <div class="col take1">
+            <h5>The keg from Raffe comes with the device already attached and it connects with the bar wifi, the tap is pluged on top of the device and it knows that is pluged via a button, also there is a button between the keg and the device to know if the device was removed.</h5>
+        </div>
+    </div>
+
+    <div class="row text-center content3take marginTop color2 begining">
+        <div class="col take1">
+            <h4>Smart branding</h4>
+        </div>
+    </div>
+    <div class="row text-center content3take2 color2 ">
+        <div class="col take1">
+            <h5>Smart branding was one of the most required from Raffe, the brand is new and they need to reach more people. Thinking on that we decided to develop an augmented reality app. </h5>
+        </div>
+    </div>
+    <div class="row text-center content3take3 color2 ">
+        <div class="col take1">
+            <h5>I made a simple app with Unity and Vuforia that the consumer points the camera to the label and see 3D models and text about that beer. Or it can be used with the business card to see Raffe's logo.</h5>
+        </div>
+    </div>
+    <div class="row text-center content3take4 color2">
+        <div class="col take1">
+            <img class="imgApp1" src="src/imgApp1.jpg">
+        </div>
+    </div>
+    <div class="row text-center content3take4 color2 end">
+        <div class="col take1">
+            <img class="imgApp2" src="src/imgApp2.jpg">
+        </div>
+    </div>
+
+    <div class="row text-center content4take marginTop color2 begining">
+        <div class="col take1">
+            <h4>But how about the system?</h4>
+        </div>
+    </div>
+    <div class="row text-center content4take2 color2 ">
+        <div class="col take1">
+            <h5>Let me explain how all of it are connected.</h5>
+        </div>
+    </div>
+    <div class="row text-center content4take4 color2 ">
+        <div class="col take1">
+            <h5>The first thing is a desktop app that i made in Electron that receives the data about the production in real time via serial from an Arduino.</h5>
+        </div>
+    </div>
+    <div class="row text-center content4take5 color2">
+        <div class="col take1">
+            <img class="imgApps" src="src/desktopapp.png">
+        </div>
+    </div>
+    <div class="row text-center content4take6 color2 ">
+        <div class="col take1">
+            <h5>It shows the data received from the sensors and from time to time sends those data to a Firebase database. It also has a QrCode generator for the mobile app.</h5>
+        </div>
+    </div>
+    <div class="row text-center content4take7 color2">
+        <div class="col take1">
+            <img class="imgAppsM" src="src/mobileapp1.png">
+        </div>
+    </div>
+    <div class="row text-center content4take8 color2 ">
+        <div class="col take1">
+            <h5>The mobile app was made by Alek with Ionic and it is a management app with all the data from the kegs in other bars and the fermenting tanks, with the additional of a stock management, the qrcode is generated for wich one of the ingredients and with the app the brewmaster can remove itens from the stock just pointing the camera to the Qrcode.</h5>
+        </div>
+    </div>
+    <div class="row text-center content4take9 color2">
+        <div class="col take1">
+            <img class="imgAppsM" src="src/mobileapp2.png">
+        </div>
+    </div>
+    <div class="row text-center content4take10 color2 ">
+        <div class="col take1">
+            <h4>Summary</h4>
+        </div>
+    </div>
+    <div class="row text-center content4take11 color2 end">
+        <div class="col take1">
+            <img class="imgsummary" src="src/summary.png">
+        </div>
+    </div>
+
+    <div class="row text-center content5take1 color2 marginTop begining">
+        <div class="col take1">
+            <h4>In the end</h4>
+        </div>
+    </div>
+    <div class="row text-center content5take2 color2 end">
+        <div class="col take1">
+            <h5>We made all those things in two days and everything is working as expected. We finished in third, but Raffe's owners liked our solutions and we are developing, with them, new versions of the sensoring device for the final product and a new app with augmented reality.</h5>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="j1.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
